@@ -3,6 +3,12 @@
     margin: 20px auto; /* Centraliza o container na página*/
 }
 
+#estrutura{
+    width: 400px;
+    height: 200px;
+    background-color: #FF0000;
+}
+
 #roda-d{
     /* Tamanho da roda */
     width: 35px;
@@ -13,8 +19,6 @@
     border: 10px solid;
     border-radius: 50%; /* Arredonda as bordas para criar um círculo*/
     border-color: black;
-
-    position: 400px;
 }
 
 #roda-t{
@@ -27,6 +31,4 @@
     border: 10px solid;
     border-radius: 50%; /* Arredonda as bordas para criar um círculo*/
     border-color: black;
-
-    position: relative;
 }
