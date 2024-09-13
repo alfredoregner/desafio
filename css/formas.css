@@ -1,0 +1,84 @@
+#container{
+    width: 500px; /* Define a largura do container*/
+    margin: 20px auto; /* Centraliza o container na página*/
+}
+
+#quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    border: 5px solid #000000;
+}
+
+#triangulo{
+    width: 0;
+    height: 0;
+
+    border-left: 50px solid #00FF00;
+    border-right: 50px solid #00DD00;
+    border-bottom: 100px solid transparent;
+}
+
+#circulo{
+    width: 100px;
+    height: 100px;
+    background-color: #FFFF00;
+    border-radius: 50%; /* Arredonda as bordas para criar um círculo*/
+}
+
+#estrlea{
+    width: 100px;
+    height: 100px;
+    position: relative; /* Posicionamento relativo para os pseudo-elementos */
+}
+
+#estrela:before, #estrela:after{
+    content: '⭐'; /* Conteúdo vazio para os pseudo-elementos */
+    position: absolute; /* Posicionamento absoluto dentro do elemento*/
+    top: 50%; /* Posiciona os pseudo-elementos no centro vertical */
+    left: 50%; /* Posiciona os pseudo-elementos no centro */
+}
+
+#coracao{
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    clip-path: polygon(50% 0%, 75% 50%, 50% 100%, 25% 50%); /* Define a forma do coração */
+}
+
+#ceu {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, #007bf0 0%, #00c8ff 50%, #ffffff 100%); /* Gradiente de azul para branco */
+}
+
+#sol{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFF00;
+    border-radius: 50%;
+    position: absolute; /* Posicionamento absoluto para sobrepor ao céu */
+    top: 25%; /* Posiciona o sol no topo */
+    left: 25%; /* Posiciona o sol à esquerda */
+}
+
+#seta-direita{
+    width: 80px;
+    height: 40px;
+    background-color: #007bff;
+    position: relative;
+}
+
+#seta-direita:before{
+    content: '⏭';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); /* Posiciona e centraliza verticalmente */
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent; /* Borda esquerda transparente */
+    border-right: 40px solid #007bff; /* Borda direita azul */
+    border-top: 20px solid #007bff; /* Borda superior azul */
+    border-bottom: 20px solid transparent; /* Borda inferior transparente */
+}

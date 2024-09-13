@@ -1,0 +1,32 @@
+#container{
+    width: 100%; /* Define a largura do container*/
+    margin: 20px auto; /* Centraliza o container na página*/
+}
+
+#roda-d{
+    /* Tamanho da roda */
+    width: 35px;
+    height: 35px;
+
+    background-color: gray;
+
+    border: 10px solid;
+    border-radius: 50%; /* Arredonda as bordas para criar um círculo*/
+    border-color: black;
+
+    position: 400px;
+}
+
+#roda-t{
+    /* Tamanho da roda */
+    width: 40px;
+    height: 40px;
+    
+    background-color: gray;
+    
+    border: 10px solid;
+    border-radius: 50%; /* Arredonda as bordas para criar um círculo*/
+    border-color: black;
+
+    position: relative;
+}
