@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(to bottom, #007bf0, #00c8ff);
+}
+
 #container{
     width: 100%; /* Define a largura do container*/
     margin: 20px auto; /* Centraliza o container na página*/
