@@ -4,31 +4,116 @@
 }
 
 #estrutura{
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 50px;
     background-color: #FF0000;
+    /*Curvatura da estrutura do carro*/
+    clip-path: polygon(0% 0%, 100% 80%, 100% 100%, 0 100%);
+
+    /*Posição do carro*/
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+
+    border: 1px solid;
 }
 
-#roda-d{
+#piloto{
+    width: 30px;
+    height: 30px;
+    background-color: #FFFF00;
+    border-radius: 50%;
+
+    /*Posição do piloto*/
+    position: absolute;
+    bottom: 135px;
+    left: 260px;
+
+    border: 1px solid;
+}
+
+#motor{
+    width: 100px;
+    height: 65px;
+    background-color: lightgray;
+
+    /*Posição do motor*/
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+
+    border: 1px solid;
+}
+
+#asaD{
+    width: 20px;
+    height: 15px;
+    background-color: #FF0000;
+
+    /*Posição da asa dianteira*/
+    position: absolute;
+    bottom: 100px;
+    left: 550px;
+
+    border: 1px solid;
+}
+
+#asa{
+    width: 7px;
+    height: 110px;
+    background-color: black;
+
+    /*Curvatura da estrutura da asa*/
+
+    /* Posição da estrutura de sustentação da asa traseira*/
+    position: absolute;
+    bottom: 110px;
+    left: 160px;
+}
+
+#asaT{
+    width: 50px;
+    height: 30px;
+    background-color: #FF0000;
+
+    /*Posição da asa traseira*/
+    position: absolute;
+    bottom: 220px;
+    left: 138px;
+
+    border: 1px solid;
+}
+
+#rodaD{
+    /* Tamanho da roda */
+    width: 30px;
+    height: 30px;
+
+    background-color: gray;
+
+    border: 5px solid;
+    border-radius: 50%; /* Arredonda as bordas para criar um círculo*/
+    border-color: black;
+
+    /*Posição da roda*/
+    position: fixed;
+    bottom: 75px;
+    left: 500px;
+}
+
+#rodaT{
     /* Tamanho da roda */
     width: 35px;
     height: 35px;
-
-    background-color: gray;
-
-    border: 10px solid;
-    border-radius: 50%; /* Arredonda as bordas para criar um círculo*/
-    border-color: black;
-}
-
-#roda-t{
-    /* Tamanho da roda */
-    width: 40px;
-    height: 40px;
     
     background-color: gray;
     
-    border: 10px solid;
+    border: 20px solid;
     border-radius: 50%; /* Arredonda as bordas para criar um círculo*/
     border-color: black;
+
+    /*Posição da roda*/
+    position: fixed;
+    bottom: 75px;
+    left: 125px;
 }
